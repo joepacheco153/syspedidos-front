@@ -1,0 +1,22 @@
+<div class="container-persona">
+
+        <form [formGroup]="addPersonaForm" class="border border-light p-5">
+       
+          <p class="h4 mb-4 text-center">Registro</p>
+          
+          <input class="form-control mb-4"  formControlName="Nombre"  type="text" placeholder="Nombre">
+      
+          <input class="form-control mb-4"  formControlName="Apellidos" type="text" placeholder="Apellidos">
+      
+          <input class="form-control mb-4"  formControlName="Edad" type="text" placeholder="Edad">
+      
+          <input class="form-control mb-4"  formControlName="Telefono" type="text" placeholder="Telefono">
+      
+          <input class="form-control mb-4"   formControlName="Correo"  type="text" placeholder="Correo" >
+    
+          <input class="form-control mb-4 "   formControlName="DNI"  type="text" placeholder="DNI" >
+        
+          <button class="btn btn-info btn-block" routerLink="'/persona/user', correo" (click)="addPersona()">Registrarse!</button>
+        </form>
+        
+</div>

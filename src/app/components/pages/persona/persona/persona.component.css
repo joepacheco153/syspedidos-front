@@ -1,0 +1,22 @@
+.tabla-persona{
+    min-width: 700px;
+    max-width: 700px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: grid;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 20px;
+    
+}
+.container-persona{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;    
+    position: relative;
+    
+}
